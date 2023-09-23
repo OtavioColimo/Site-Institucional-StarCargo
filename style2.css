@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Astromax Regular';
+    src: url('/font/Astromax Regular.ttf') format('truetype');
+    }
+
+    @font-face {
+    font-family: 'Astromax Outline';
+    src: url('/font/Astromax Outline.ttf') format('truetype');
+    }
+
+    @font-face {
+    font-family: 'nasalization-rg';
+    src: url('/font/nasalization-rg.otf') format('truetype');
+    }
+
+    body {
+        background-size: cover;
+        background-color: #000000 ;
+        margin: 0;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        padding: 0;
+        height: 100vh;
+    }
+
+    .destaque {
+        background-color: black; /* Define a cor de fundo */
+    }
+
+    .logo {
+        width: auto;
+        height: 8.125rem;
+        margin-left: 5rem
+    }
+
+    .logo2 {
+        width: 37.5rem;
+        height: 5rem;
+        margin-left: 3rem;
+        margin-right: 15rem;
+    }
+
+    .logo3 {
+        width: 37.5rem;
+        height: 5rem;
+    }
+
+    .botao-contato {
+        font-family: 'Astromax Regular';
+        background-color: #000000;
+        color: #ffffff;
+        padding: 0.5rem 1.25rem;
+        border-style: solid;
+        margin-left: 13rem;
+        border-color: #00fff4;
+        border-radius: 3.125rem;
+        cursor: pointer;
+        transition: background-color 0.7s ease;
+    }
+
+    .botao-cadastro {
+        font-family: 'Astromax Regular';
+        background-color: #000000;
+        color: #ffffff;
+        padding: 0.5rem 1.25rem;
+        border-style: solid;
+        margin-right: 5rem;
+        border-color: #00fff4;
+        border-radius: 3.125rem;
+        
+        cursor: pointer;
+        transition: background-color 0.7s ease;
+    }
+
+    .botao-login:hover {
+        background-color: #00fff4;
+        color: #000;
+    }
+    .botao-cadastro:hover {
+        background-color: #00fff4;
+        color: #000; 
+    }
+
+    .categoria-button {
+        text-decoration: none;
+        color: #000000;
+        padding: 80%;
+        cursor: pointer;
+        transition: background-color 0.7s ease;
+    }
+
+    .categoria-button:hover {
+        color: #00fff4;
+    }
+
+    .pagina1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+        margin-right: 6.25rem;
+        margin-left: 6.25rem;
+        margin-bottom: 0.25rem;
+    }
