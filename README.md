@@ -2,7 +2,8 @@ StarCargo's corporate website was inspired by the game StarField. The fictional 
 
 🚀 Let's start
 Just click on the link to see the website. 
-Link:
+
+Link: https://main--frolicking-sprinkles-b65b0b.netlify.app
 
 🛠️ Build up with
 HTML and CSS
